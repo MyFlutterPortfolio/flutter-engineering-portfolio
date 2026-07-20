@@ -1,0 +1,512 @@
+﻿{
+  "@@locale": "es",
+  "navHome": "Agente",
+  "navSearch": "Buscar",
+  "navProfile": "Perfil",
+  "aboutTitle": "Acerca de Dealio",
+  "aboutSubtitle": "Creado para comprar mejor",
+  "languageTitle": "Idioma de la app",
+  "languageSubtitle": "La busqueda y los resultados de IA seguiran este idioma",
+  "langEnglish": "Ingles",
+  "langRussian": "Ruso",
+  "langSpanish": "Espanol",
+  "langUzbek": "Uzbeko",
+  "langChinese": "Chino",
+  "searchPlanUnlimited": "Plan {plan} - busqueda ilimitada",
+  "searchPlanRemaining": "Plan {plan} - quedan {remaining} busquedas",
+  "searchValidationQueryRequired": "Introduce un producto",
+  "searchQueryHint": "ej. iPhone 13 128GB",
+  "commonRetry": "Reintentar",
+  "searchUseUS": "Usar US",
+  "searchFreeModeHint": "Modo FREE: las tiendas globales se cargan automaticamente por pais.",
+  "searchManualStoreHint": "Enlace/dominio de tienda (amazon.com)",
+  "commonAdd": "Anadir",
+  "searchStoreSearchHint": "Buscar tiendas...",
+  "searchStoresEmpty": "Las tiendas del pais seleccionado apareceran aqui.",
+  "searchStoresLoadFailed": "No se pudieron cargar las tiendas. Intentalo de nuevo.",
+  "searchErrorCountryRequired": "El pais es obligatorio. Primero selecciona un pais.",
+  "searchPlanLimitTitle": "Limite del plan alcanzado",
+  "searchPlanLimitMessage": "Has alcanzado el limite de tu plan. Actualiza para continuar.",
+  "searchErrorEnterStoreDomain": "Introduce un dominio o URL de tienda. Ejemplo: amazon.com",
+  "searchErrorStoreAlreadySelected": "Esta tienda ya esta seleccionada.",
+  "searchErrorStoreLimit": "Puedes seleccionar hasta {max} tiendas.",
+  "commonEdit": "Editar",
+  "resultsLoadingTitle": "Escaneando tiendas globales...",
+  "alertsCheckNow": "Revisar ahora",
+  "alertSheetAllStores": "Todas las tiendas",
+  "alertSheetUserConsent": "I approve one-tap checkout",
+  "alertsTargetNA": "Objetivo: N/A",
+  "alertSheetStatHigh": "M?ximo",
+  "settingsLogoutSubtitle": "Cerrar sesi?n de forma segura en este dispositivo",
+  "alertSheetTitle": "Crear alerta de precio",
+  "favoritesTitle": "Favoritos",
+  "resultsEmptyDescription": "Intenta ajustar palabras clave, pais o tiendas.",
+  "planPlus": "Plus",
+  "resultsLoadingSubtitle": "Agregando ofertas y matching de IA en tiempo real.",
+  "resultsStage2ReadySubtitle": "Perfil de IA generado, validando confianza de tiendas.",
+  "alertsTriggers": "Activaciones: {count}",
+  "alertsDealButton": "Abrir oferta",
+  "alertSheetCurrentTarget": "Actual: {observed}  Objetivo: {target}",
+  "settingsSearchesLeft": "B?squedas restantes: {remaining}/{limit}",
+  "planFree": "Free",
+  "commonLogout": "Cerrar sesi?n",
+  "alertEventsEmpty": "A?n no hay eventos de alerta.",
+  "commonSettings": "Ajustes",
+  "alertEventsError": "Error al cargar eventos: {error}",
+  "resultsStage1ReadySubtitle": "Escaneo de mercado completo, preparando perfil de IA.",
+  "alertSheetRefreshQuote": "Actualizar cotizaci?n",
+  "alertsEmptySubtitle": "Crea tu primera alerta desde resultados de b?squeda para seguir bajadas de precio.",
+  "alertSheetArmAutoBuy": "Activar auto-buy",
+  "resultsUpgradePlanTitle": "Mejora tu plan",
+  "alertSheetKvontTitle": "Controles Auto-buy KVONT",
+  "commonCancel": "Cancelar",
+  "commonDelete": "Eliminar",
+  "resultsUnexpectedError": "Ocurri? un error inesperado durante la b?squeda.",
+  "resultsEmptyTitle": "No se encontraron productos coincidentes",
+  "alertSheetWaitingPrice": "Esperando precio en tiempo real...",
+  "settingsThemeTitle": "Tema",
+  "favoritesEmptyTitle": "A?n no hay favoritos",
+  "commonUpgrade": "Mejorar",
+  "favoritesAnalyze": "Analizar",
+  "resultsStageFindingTitle": "Buscando mejores ofertas",
+  "alertSheetTriggerSetup": "Configuraci?n de activaci?n",
+  "resultsStageFindingSubtitle": "Recopilando se?ales iniciales del mercado.",
+  "alertSheetSaveButton": "Guardar alerta",
+  "alertSheetRealtimeMonitoring": "Monitoreo en tiempo real",
+  "resultsStage2ReadyTitle": "Etapa 2 lista",
+  "settingsSubscriptionUnavailable": "Suscripci?n no disponible",
+  "resultsUpgradeNow": "Mejorar ahora",
+  "alertSheetKvontSubtitle": "These options only prepare notification actions; payment still needs your confirmation.",
+  "resultsAdjustParameters": "Ajustar par?metros de b?squeda",
+  "commonClear": "Limpiar",
+  "settingsPlanLabel": "Plan {plan}",
+  "alertsTargetValue": "Objetivo: ${price}",
+  "alertSheetStoreTargeting": "Selecci?n de tienda",
+  "resultsUpgradePlanMessage": "Pasa a un plan superior para m?s b?squedas y an?lisis de IA m?s profundo.",
+  "alertSheetCooldownLabel": "Cooldown (minutos)",
+  "settingsDarkEnabled": "Modo oscuro activado",
+  "alertsKvontPaywallMessage": "Desbloquea alertas en tiempo real, an?lisis de tendencia y enlaces listos para checkout.",
+  "alertsKvontUpgradeMessage": "Mejora a KVONT para monitoreo en tiempo real, gr?ficos de tendencia y preparaci?n de auto-buy.",
+  "resultsProductsOptimized": "{count} productos optimizados",
+  "settingsNotificationsSubtitle": "Alertas de precio y novedades de la app",
+  "planKvont": "Kvont",
+  "planPro": "Pro",
+  "resultsNeuralGlitch": "Problema de busqueda",
+  "alertSheetTargetInvalid": "El objetivo debe ser menor que el precio actual.",
+  "alertsKvontPaywallTitle": "KVONT Super Alerts",
+  "alertSheetStatTarget": "Objetivo",
+  "alertSheetCheckoutPrepared": "Enlace de checkout preparado",
+  "alertSheetStatLow": "M?nimo",
+  "settingsPrivacySubtitle": "Gestionar preferencias de privacidad",
+  "resultsStage3ReadyTitle": "Etapa 3 lista",
+  "alertsLastTrigger": "?ltima activaci?n: {time}",
+  "resultsSearchQuotaTitle": "Cuota de b?squeda",
+  "resultsSearchLimitReached": "L?mite de b?squeda alcanzado",
+  "alertSheetRealtimeUnavailable": "Precio en tiempo real no disponible. Actualiza la cotizaci?n e int?ntalo de nuevo.",
+  "alertsDeleteTitle": "?Eliminar alerta?",
+  "alertsEmptyTitle": "No hay alertas activas",
+  "alertsCheckNowResult": "Revisado: {checked}  Activado: {triggered}  Errores: {errors}",
+  "alertEventsTitle": "Eventos de alerta",
+  "resultsStage3ReadySubtitle": "Ranking final listo con mejores alternativas.",
+  "alertSheetTrendTitle": "Tendencia de precio (reciente)",
+  "commonManage": "Gestionar",
+  "favoritesStartShopping": "Empezar a comprar",
+  "settingsNotificationsTitle": "Notificaciones",
+  "settingsLightEnabled": "Modo claro activado",
+  "alertSheetCooldownHelper": "M?nimo 5 minutos, m?ximo 1440 minutos.",
+  "alertsKvontSubtitle": "El worker en tiempo real sincroniza tus alertas con precios de tiendas.",
+  "alertsCreateTooltip": "Crear alerta",
+  "settingsPrivacyTitle": "Privacidad y seguridad",
+  "alertEventsTriggeredAt": "Activado en ${triggerPrice} (objetivo ${targetPrice})",
+  "alertSheetRealtimeMonitoringSubtitle": "Verifica precios continuamente para activaciones m?s r?pidas.",
+  "resultsNeuralSearch": "Neural Search",
+  "alertsKvontActive": "Monitoreo en tiempo real KVONT activo",
+  "alertSheetRealtimePriceLabel": "Precio en tiempo real",
+  "alertsTitle": "Alertas",
+  "alertSheetDropAmount": "Bajada $",
+  "alertEventsViewDeal": "Ver oferta",
+  "alertSheetSaved": "Alerta creada correctamente.",
+  "resultsStage1ReadyTitle": "Etapa 1 lista",
+  "alertsDeleteMessage": "Esta acci?n elimina la alerta y su monitoreo en tiempo real.",
+  "alertSheetDropPercent": "Bajada %",
+  "favoritesSubtitle": "Tus productos guardados y lista r?pida de revisi?n.",
+  "resultsTryAgain": "Intentar de nuevo",
+  "favoritesEmptySubtitle": "Guarda productos para seguir mejores precios y alternativas m?s seguras.",
+  "alertsNever": "Nunca",
+  "alertsHistoryTooltip": "Historial de alertas",
+  "onboardingSlide1Desc": "Compara ofertas globales al instante y encuentra el mejor precio.",
+  "authEmailLabel": "Email",
+  "onboardingSlide2Desc": "La IA verifica autenticidad del producto y fiabilidad del vendedor antes de comprar.",
+  "authEmailHint": "you@example.com",
+  "loginCreateAccount": "Crear cuenta nueva",
+  "authFullNameMinChars": "M?nimo {min} caracteres",
+  "profilePaymentMethodsSubtitle": "Tarjetas y billeteras",
+  "loginBackOnboarding": "Volver al onboarding",
+  "onboardingNext": "Siguiente",
+  "profileNotifications": "Notificaciones",
+  "profileSecurity": "Seguridad",
+  "loginButton": "Entrar",
+  "authPasswordLabel": "Contrase?a",
+  "splashTagline": "Ofertas en las que puedes confiar",
+  "onboardingSlide3Desc": "Comprende opiniones reales con res?menes inteligentes de sentimiento.",
+  "onboardingGetStarted": "Comenzar",
+  "authFullNameLabel": "Nombre completo",
+  "registerCreateAccount": "Crear cuenta",
+  "authPasswordHint": "Introduce tu contrase?a",
+  "profileSettingsPreferences": "Ajustes y preferencias",
+  "onboardingSlide4Title": "Alertas inteligentes",
+  "registerSubtitle": "?nete a Dealio y desbloquea flujos de compra inteligentes",
+  "onboardingBack": "Atr?s",
+  "loginWelcomeBack": "Bienvenido de nuevo",
+  "onboardingSkip": "Saltar",
+  "loginForgotPassword": "?Olvidaste tu contrase?a?",
+  "onboardingSlide1Title": "Comparaci?n global de precios",
+  "registerButton": "Registrarse",
+  "authPasswordMinChars": "M?nimo {min} caracteres",
+  "loginSignInContinue": "Inicia sesi?n para continuar",
+  "profileName": "Alex Robinson",
+  "profilePointsProgress": "{current} / {total} puntos",
+  "onboardingSlide4Desc": "Recibe aviso cuando el precio objetivo se alcance y act?a r?pido.",
+  "profileLogout": "Cerrar sesi?n",
+  "profileGoldStatus": "ESTADO GOLD",
+  "registerSuccessTitle": "Registro exitoso",
+  "profilePaymentMethods": "M?todos de pago",
+  "profileNotificationsSubtitle": "Alertas de ofertas y novedades de la app",
+  "profileCashbackBalance": "Saldo de cashback",
+  "onboardingSlide2Title": "Verificaci?n de autenticidad",
+  "profileNextReward": "Pr?xima recompensa: {amount}",
+  "authEmailInvalid": "Introduce un email v?lido",
+  "authEmailRequired": "El email es obligatorio",
+  "authPasswordRequired": "La contrase?a es obligatoria",
+  "authFullNameRequired": "El nombre completo es obligatorio",
+  "registerAlreadyHaveAccount": "?Ya tienes cuenta? Iniciar sesi?n",
+  "onboardingSlide3Title": "Rese?as e insights",
+  "profileSecuritySubtitle": "Biometr?a y contrase?as",
+  "navFavorites": "Favoritos",
+  "favoritesLoadFailed": "La lista guardada no está sincronizada",
+  "favoritesLoadSubtitle": "Dealio no pudo actualizar tus productos guardados ahora. Revisa la conexión y sincroniza otra vez.",
+  "favoritesLoadAction": "Actualizar lista",
+  "favoritesProductFallback": "Producto",
+  "favoritesNoNotes": "Producto guardado",
+  "favoritesSaveTooltip": "Guardar en favoritos",
+  "favoritesRemoveTooltip": "Quitar de favoritos",
+  "favoritesSaved": "Guardado en favoritos.",
+  "favoritesRemoved": "Eliminado de favoritos.",
+  "favoritesActionFailed": "No se pudo actualizar la lista guardada. Inténtalo de nuevo.",
+  "notificationsTitle": "Notificaciones",
+  "notificationsClearTitle": "Clear all?",
+  "notificationsClearMessage": "Are you sure you want to dismiss all notifications?",
+  "notificationsUnavailableTitle": "Notifications unavailable",
+  "notificationsUnavailableSubtitle": "We could not load alerts right now. Please try again soon.",
+  "notificationsAtStore": " at {store}",
+  "notificationsAlertMatched": "A tracked product matched your alert{price}{store}.",
+  "notificationsBackInStock": "Back in stock",
+  "notificationsDealFound": "Deal found",
+  "notificationsPriceAlert": "Price alert",
+  "notificationsJustNow": "Just now",
+  "notificationsMinutesAgo": "{count}m ago",
+  "notificationsHoursAgo": "{count}h ago",
+  "notificationsDaysAgo": "{count}d ago",
+  "notificationsTabAll": "Todo",
+  "notificationsTabPriceAlerts": "Alertas de precio",
+  "notificationsTabAiInsights": "AI Insights",
+  "notificationsTabSustainability": "Sustainability",
+  "notificationsTabStoreUpdates": "Store Updates",
+  "notificationsViewProduct": "Ver producto",
+  "notificationsReanalyze": "Reanalizar",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsEmptySubtitle": "Create price alerts to receive real-time deal updates here.",
+  "alertPickerTitle": "Crear alerta de precio",
+  "alertPickerSubtitle": "Choose how you want to start. Search is best for comparison; manual link tracks one exact store page.",
+  "alertPickerSearchTitle": "Buscar producto",
+  "alertPickerSearchSubtitle": "Find a product first, compare stores, then create an alert.",
+  "alertPickerManualTitle": "Enlace manual de tienda",
+  "alertPickerManualSubtitle": "Paste any public product URL and monitor that exact page.",
+  "alertPickerPlanLimits": "Plan limits still apply: Free 3/month, Plus 10/month, Pro 100/month, KVONT 1000/month.",
+  "alertManualInvalidUrl": "Paste a full public http(s) product URL.",
+  "alertManualPriceUnavailable": "Current price is unavailable for this link.",
+  "alertManualLimitTitle": "Price alert limit reached",
+  "alertManualLimitMessage": "Your monthly alert quota is finished. Upgrade to create more alerts and unlock faster monitoring.",
+  "alertManualCreated": "Price alert created from store link.",
+  "alertManualTitle": "Manual link alert",
+  "alertManualSubtitle": "Paste a product URL. Dealio will read the price and monitor that exact store page.",
+  "alertManualStepLink": "1. Store product link",
+  "alertManualAnalyzeLink": "Analyze link",
+  "alertManualSecurityNote": "For security, only public http(s) product pages are accepted. Local/private network links are blocked on the backend.",
+  "alertManualWaitingAnalysis": "Waiting for analysis",
+  "alertManualAnalyzeForPrice": "Analyze the link to detect current price.",
+  "alertManualQuoteConfidence": "{store} - confidence {confidence}",
+  "alertManualStoreFallback": "Store",
+  "alertManualStepSignal": "2. Price signal",
+  "alertManualAnalyzeTargetHint": "Analyze the link first so we can calculate your target.",
+  "alertSheetStatNow": "Now",
+  "alertSheetStoreNameOptional": "Store name (optional)",
+  "alertSheetCustomStoreLink": "Or paste any store link",
+  "alertSheetCheckStore": "Check this store",
+  "alertSheetCustomStoreInvalid": "Enter a full http(s) product URL so Dealio can safely track this store.",
+  "alertSheetCustomStoreScope": "Custom store scope: {domain}",
+  "alertSheetAdvancedOptions": "Advanced options",
+  "alertSheetAdvancedSubtitle": "Cooldown and KVONT one-tap readiness.",
+  "resultsTopPick": "TOP PICK",
+  "resultsPriceSyncing": "PRICE SYNCING",
+  "resultsBestLivePrice": "BEST LIVE PRICE",
+  "resultsCheckingStores": "Checking stores",
+  "resultsReady": "Listo",
+  "resultsLive": "Live",
+  "resultsDealioTake": "Dealio take",
+  "resultsPricePending": "Price pending",
+  "resultsFinalAiDelayed": "Final AI ranking was delayed, but store results are ready.",
+  "resultsStoreValidationDelayed": "Store validation was delayed, continuing with available matches.",
+  "resultsProductFallback": "Producto",
+  "resultsSmartMatch": "Smart match",
+  "@notificationsAtStore": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsAlertMatched": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@alertManualQuoteConfidence": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      },
+      "confidence": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertSheetCustomStoreScope": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "resultsLiveOffersTitle": "Live store prices",
+  "resultsLiveOffersSubtitle": "Real offers returned for this search.",
+  "resultsBestBadge": "BEST",
+  "resultsOfferAvailable": "Available",
+  "resultsOfferUnavailable": "Unavailable",
+  "resultsFitLabel": "FIT",
+  "resultsFitScore": "{score} fit",
+  "resultsCountryFallback": "Global",
+  "resultsProviderFallback": "Smart",
+  "resultsOpenProductTooltip": "View product details",
+  "resultsOpenDealTooltip": "Open store deal",
+  "resultsCreateAlertTooltip": "Create price alert",
+  "resultsMatchesSubtitle": "Real products returned for this search.",
+  "resultsNoLiveOffers": "Live store prices appear when verified offers are available.",
+  "resultsStoreFallback": "Store",
+  "@resultsFitScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatTitle": "Dealio",
+  "aiChatSubtitle": "Shopping-only personal advisor",
+  "aiChatNewChat": "Nuevo chat",
+  "aiChatHistory": "Chats",
+  "aiChatRenameChat": "Renombrar chat",
+  "aiChatDeleteChat": "Eliminar chat",
+  "aiChatRenameTitle": "Renombrar chat",
+  "aiChatRenameHint": "Nombre del chat",
+  "aiChatRenameSave": "Guardar nombre",
+  "aiChatDeleteTitle": "¿Eliminar chat?",
+  "aiChatDeleteBody": "Esto quita el chat de tu historial. Puedes iniciar uno nuevo cuando quieras.",
+  "aiChatDeleteConfirm": "Eliminar chat",
+  "aiChatActionFailed": "No se pudo actualizar este chat. Inténtalo de nuevo.",
+  "aiChatManualActions": "Herramientas manuales",
+  "aiChatAddToChat": "Añadir al chat",
+  "aiChatAttachBarcode": "Escanear código",
+  "aiChatAttachImage": "Buscar por imagen",
+  "aiChatEmptyNameFallback": "Amigo",
+  "aiChatEmptyTitle": "{name}, ¿qué compramos hoy?",
+  "@aiChatEmptyTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiChatEmptySubtitle": "Estoy listo.",
+  "aiChatErrorReply": "Temporary AI issue. Please retry, or share your budget, country, and top priorities so I can guide you safely.",
+  "aiChatInputHint": "Escribe a Dealio...",
+  "aiChatThinkingAnalyzing": "Analizando tu solicitud",
+  "aiChatThinkingSearching": "Buscando tiendas fiables",
+  "aiChatThinkingPricing": "Revisando señales de precio",
+  "aiChatThinkingRanking": "Ordenando mejores opciones",
+  "aiChatEmptyHintPrefix": "Prueba",
+  "aiChatEmptyHintCamera": "Encuentra un teléfono con buena cámara por menos de $900",
+  "aiChatEmptyHintBudget": "Compara tiendas confiables para mi presupuesto",
+  "aiChatEmptyHintAlert": "Avísame cuando este producto baje de precio",
+  "aiAgentActionNeeds": "Preguntar necesidades",
+  "aiAgentActionResults": "Mejores resultados",
+  "aiAgentActionAlert": "Alerta de precio",
+  "aiAgentActionAdvice": "Consejo",
+  "aiAgentActionCompare": "Comparar tiendas",
+  "aiAgentFeedbackHelpful": "Útil",
+  "aiAgentFeedbackImprove": "Mejorar",
+  "aiAgentFeedbackSaved": "Feedback recibido",
+  "aiAgentFeedbackHelpfulThanks": "Gracias — señal recibida.",
+  "aiAgentFeedbackImproveThanks": "Entendido — ajustaré la próxima respuesta.",
+  "aiAgentPromptNeeds": "Hazme 3 preguntas cortas para entender mis necesidades, presupuesto, país y prioridades antes de recomendar productos.",
+  "aiAgentPromptResults": "Muestra las mejores opciones de producto como una lista breve ordenada por precio, confianza, pros, contras y el siguiente paso más seguro.",
+  "aiAgentPromptAdvice": "Dame una recomendación breve de compra: qué elegir, qué evitar y por qué.",
+  "aiAgentPromptCompareStores": "Compara tiendas confiables para este producto por precio, entrega, política de devolución, autenticidad y riesgo.",
+  "aiStructuredDecision": "DECISIÓN DEALIO",
+  "aiStructuredBestMatches": "MEJORES OPCIONES",
+  "aiStructuredQuestions": "PREGUNTAS",
+  "aiStructuredPriceWatch": "SEGUIMIENTO DE PRECIO",
+  "aiStructuredPriceWatchSubtitle": "Puedo vigilar este precio y avisarte cuando sea más seguro comprar.",
+  "aiStructuredStartAlert": "Seguir",
+  "aiAgentAlertTitle": "¿Vigilar este precio?",
+  "aiAgentAlertSubtitle": "Dealio revisará precios recientes y te avisará cuando se alcance el objetivo.",
+  "aiAgentAlertLoading": "Comprobando el precio más reciente...",
+  "aiAgentAlertQuoteUnavailable": "Aún no pude leer un precio fiable. Pega un enlace de producto o usa la configuración avanzada.",
+  "aiAgentAlertPasteLink": "Pega un enlace de producto para que Dealio pueda rastrearlo.",
+  "aiAgentAlertLinkHint": "https://store.com/product...",
+  "aiAgentAlertCheckLink": "Comprobar enlace",
+  "aiAgentAlertCreate": "Crear alerta",
+  "aiAgentAlertAdvanced": "Configuración avanzada",
+  "aiAgentAlertSelectedProduct": "Producto seleccionado",
+  "aiAgentAlertCurrent": "Ahora",
+  "aiAgentAlertTarget": "Objetivo",
+  "aiAgentAlertAnyStore": "Cualquier tienda confiable",
+  "aiAgentAlertStoreScope": "Alcance de seguimiento: {store}",
+  "@aiAgentAlertStoreScope": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentAlertPriceUnknown": "Desconocido",
+  "aiAgentAlertNeedProduct": "Necesito un producto o enlace de tienda para crear esta alerta.",
+  "aiAgentAlertCreatedMessage": "El seguimiento de precio está activo. Te avisaré cuando se alcance el objetivo.",
+  "aiAgentSearchResults": "Encontré {count} resultado(s) fuerte(s) para “{query}”.",
+  "@aiAgentSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAgentSearchNoResults": "Aún no encontré coincidencias fuertes para “{query}”. Prueba añadir presupuesto, país o tienda preferida.",
+  "@aiAgentSearchNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentSearchFailed": "La búsqueda del agente no está disponible temporalmente. Aun así puedo ayudarte a precisar la consulta.",
+  "aiStructuredMatchScore": "{score}% afinidad",
+  "@aiStructuredMatchScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatUserLabel": "You",
+  "aiChatAssistantLabel": "Dealio AI",
+  "searchHistoryEmpty": "Las busquedas recientes apareceran aqui",
+  "searchHeaderTitle": "Dealio Search",
+  "searchQuotaCompact": "{plan} • {remaining} restantes",
+  "@searchQuotaCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "searchQuotaUnlimitedCompact": "{plan} • ilimitado",
+  "@searchQuotaUnlimitedCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "searchInputLabel": "Buscar",
+  "searchButtonLabel": "Buscar",
+  "searchAiNeedsTitle": "Dealio AI",
+  "searchAiNeedsSubtitle": "Escribe tus necesidades a Dealio.",
+  "searchAiNeedsHint": "Ejemplo: buena bateria, buena camara, ligero, hasta $900...",
+  "searchNeedChipCamera": "camara",
+  "searchNeedChipBattery": "bateria",
+  "searchNeedChipBudget": "hasta $900",
+  "searchNeedChipDurable": "duradero",
+  "searchRecentTitle": "Busquedas recientes",
+  "searchFiltersTitle": "Filtros",
+  "searchFiltersSubtitle": "Pais, tiendas y presupuesto",
+  "searchFiltersButton": "Filtros",
+  "searchFiltersApply": "Aplicar filtros",
+  "searchFiltersClearStores": "Limpiar tiendas",
+  "searchBudgetLabel": "Presupuesto",
+  "searchBudgetActive": "Presupuesto listo",
+  "searchBudgetHint": "Precio maximo opcional",
+  "searchBudgetInvalid": "Introduce un presupuesto valido",
+  "searchCountryLabel": "Pais",
+  "searchStoresLabel": "Elige tiendas solo si hace falta.",
+  "searchAdvancedTitle": "Avanzado",
+  "searchGlobalScope": "Tiendas globales",
+  "searchSelectedScope": "{count} tiendas seleccionadas",
+  "@searchSelectedScope": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryStores": "{count} tiendas",
+  "@searchHistoryStores": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryContext": "contexto",
+  "searchCountryFallback": "Pais"
+}

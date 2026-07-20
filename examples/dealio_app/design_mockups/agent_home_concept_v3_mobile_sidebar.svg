@@ -1,0 +1,146 @@
+<svg width="393" height="852" viewBox="0 0 393 852" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appBg" x1="0" y1="0" x2="393" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B111B"/>
+      <stop offset="0.52" stop-color="#080D15"/>
+      <stop offset="1" stop-color="#05080D"/>
+    </linearGradient>
+    <linearGradient id="drawerBg" x1="0" y1="0" x2="322" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#0E1521"/>
+      <stop offset="1" stop-color="#0A1018"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="22" y1="96" x2="304" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7EA6FF"/>
+      <stop offset="1" stop-color="#3F7DFF"/>
+    </linearGradient>
+    <linearGradient id="avatar" x1="31" y1="37" x2="67" y2="73" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FAFF"/>
+      <stop offset="0.42" stop-color="#7EA6FF"/>
+      <stop offset="1" stop-color="#173E99"/>
+    </linearGradient>
+    <filter id="drawerShadow" x="-46" y="-20" width="430" height="912" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="20" dy="0" stdDeviation="28" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-80" y="-80" width="560" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect width="393" height="852" rx="32"/>
+    </clipPath>
+    <style>
+      .tiny { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; font-size: 10px; font-weight: 800; fill: #6F7D93; letter-spacing: 1px; }
+      .label { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; font-size: 12px; font-weight: 760; fill: #D6DEEC; }
+      .muted { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; font-size: 11px; font-weight: 640; fill: #8190A6; }
+      .title { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; font-size: 17px; font-weight: 860; fill: #F8FBFF; letter-spacing: -0.25px; }
+      .mainTitle { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", Arial, sans-serif; font-size: 20px; font-weight: 860; fill: #F8FBFF; letter-spacing: -0.55px; }
+      .body { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; font-size: 12px; font-weight: 640; fill: #B8C3D4; }
+      .whiteText { font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif; font-size: 14px; font-weight: 850; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="393" height="852" fill="url(#appBg)"/>
+    <circle cx="338" cy="72" r="132" fill="#316CFF" opacity="0.15" filter="url(#glow)"/>
+    <circle cx="326" cy="730" r="178" fill="#22D3EE" opacity="0.075" filter="url(#glow)"/>
+
+    <!-- Main chat behind drawer, ChatGPT-like mobile scale -->
+    <g opacity="0.45">
+      <rect width="393" height="852" fill="#0B111B"/>
+      <rect x="331" y="24" width="40" height="40" rx="15" fill="#121B2A" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <path d="M345 37H358M345 45H358M345 53H354" stroke="#DDE6F6" stroke-width="2" stroke-linecap="round"/>
+      <text x="70" y="54" class="mainTitle">Dealio Agent</text>
+      <text x="70" y="75" class="muted">Shopping agent • price watcher</text>
+      <rect x="34" y="120" width="320" height="88" rx="25" fill="#111A28" stroke="#FFFFFF" stroke-opacity="0.07"/>
+      <text x="58" y="154" class="label">Bugun nima topib beray?</text>
+      <text x="58" y="178" class="muted">Qidiraman, solishtiraman va alert qo‘yaman.</text>
+      <rect x="34" y="717" width="320" height="72" rx="25" fill="#0F1724" stroke="#567CFF" stroke-opacity="0.22"/>
+      <text x="58" y="758" class="body">Message Dealio...</text>
+    </g>
+    <rect width="393" height="852" fill="#02050A" opacity="0.32"/>
+
+    <!-- Sidebar drawer: 82% width, mobile ChatGPT-ish -->
+    <rect x="0" y="0" width="322" height="852" fill="url(#drawerBg)" filter="url(#drawerShadow)"/>
+    <rect x="321.5" y="0" width="1" height="852" fill="#FFFFFF" opacity="0.07"/>
+
+    <!-- Header: Dealio row + settings button on the right -->
+    <circle cx="50" cy="55" r="22" fill="#162236" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="50" cy="55" r="16" fill="url(#avatar)"/>
+    <path d="M41 57C44 48 52 44 60 48C66 51 66 61 59 65C52 70 45 66 41 57Z" fill="#0A1530" fill-opacity="0.56"/>
+    <circle cx="45.5" cy="54" r="2.5" fill="#F7FAFF"/>
+    <circle cx="55.5" cy="54" r="2.5" fill="#F7FAFF"/>
+    <path d="M45.5 63C49 66 54 66 58.5 63" stroke="#F7FAFF" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="84" y="52" class="title">Dealio</text>
+    <text x="84" y="70" class="muted">AI shopping workspace</text>
+    <rect x="270" y="36" width="36" height="36" rx="14" fill="#121B2A" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M284 54C284 50.7 286.7 48 290 48C293.3 48 296 50.7 296 54C296 57.3 293.3 60 290 60C286.7 60 284 57.3 284 54Z" stroke="#DDE6F6" stroke-width="1.8"/>
+    <path d="M290 44V48M290 60V64M280 54H284M296 54H300M282.8 46.8L285.6 49.6M294.4 58.4L297.2 61.2M297.2 46.8L294.4 49.6M285.6 58.4L282.8 61.2" stroke="#DDE6F6" stroke-width="1.4" stroke-linecap="round"/>
+
+    <!-- New chat -->
+    <rect x="18" y="96" width="288" height="50" rx="17" fill="url(#primary)"/>
+    <path d="M42 121H55M48.5 114.5V127.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="72" y="127" class="whiteText">New shopping chat</text>
+
+    <!-- Tools -->
+    <text x="22" y="176" class="tiny">DEALIO TOOLS</text>
+    <rect x="14" y="190" width="292" height="48" rx="16" fill="#172234" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <circle cx="42" cy="214" r="14" fill="#22324C"/>
+    <path d="M37 214C37 210 40 207 44 207C48 207 51 210 51 214C51 218 48 221 44 221C40 221 37 218 37 214ZM50 220L55 225" stroke="#7EA6FF" stroke-width="2" stroke-linecap="round"/>
+    <text x="70" y="211" class="label">Search</text>
+    <text x="70" y="227" class="muted">Manual product search</text>
+
+    <rect x="14" y="246" width="292" height="48" rx="16" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <circle cx="42" cy="270" r="14" fill="#1B263A"/>
+    <path d="M42 262L45 268L52 269L47 274L48 281L42 278L36 281L37 274L32 269L39 268L42 262Z" fill="#7EA6FF"/>
+    <text x="70" y="267" class="label">Favorites</text>
+    <text x="70" y="283" class="muted">Saved products</text>
+
+    <rect x="14" y="302" width="292" height="48" rx="16" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <circle cx="42" cy="326" r="14" fill="#1B263A"/>
+    <path d="M34 327H38L41 319L46 333L50 325H55" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="323" class="label">Price Alerts</text>
+    <text x="70" y="339" class="muted">Targets, drops, history</text>
+
+    <!-- Chats -->
+    <text x="22" y="382" class="tiny">AGENT CHATS</text>
+    <rect x="14" y="396" width="292" height="56" rx="18" fill="#172234" stroke="#567CFF" stroke-opacity="0.18"/>
+    <text x="34" y="421" class="label">iPhone 13 yoki Pixel 7?</text>
+    <text x="34" y="438" class="muted">3 variants • alert suggested</text>
+    <circle cx="284" cy="424" r="4" fill="#34D399"/>
+
+    <rect x="14" y="460" width="292" height="56" rx="18" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <text x="34" y="485" class="label">Laptop for design</text>
+    <text x="34" y="502" class="muted">Budget $900 • local stores checked</text>
+
+    <rect x="14" y="524" width="292" height="56" rx="18" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <text x="34" y="549" class="label">Watch Apple Watch SE</text>
+    <text x="34" y="566" class="muted">Price dropped 6% this week</text>
+
+    <rect x="14" y="588" width="292" height="56" rx="18" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <text x="34" y="613" class="label">Sovg‘a uchun telefon</text>
+    <text x="34" y="630" class="muted">Camera, battery, safe seller</text>
+
+    <!-- Bottom profile -->
+    <rect x="14" y="714" width="292" height="50" rx="17" fill="#101925" stroke="#FFFFFF" stroke-opacity="0.05"/>
+    <circle cx="42" cy="739" r="15" fill="#25334A"/>
+    <text x="37" y="744" style="font-family:Inter,-apple-system,Arial,sans-serif;font-size:13px;font-weight:850;fill:#F8FBFF;">U</text>
+    <text x="70" y="736" class="label">Profile</text>
+    <text x="70" y="753" class="muted">Preferences, city, budget memory</text>
+
+    <!-- Bottom help: small full sentence + icon button -->
+    <rect x="14" y="778" width="292" height="42" rx="15" fill="#0D1520" stroke="#FFFFFF" stroke-opacity="0.04"/>
+    <circle cx="38" cy="799" r="14" fill="#172234"/>
+    <path d="M35 795C35.5 791.5 41.5 791.4 42 795C42.4 797.8 39 798.5 39 801" stroke="#9AA8BC" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="39" cy="805" r="1.4" fill="#9AA8BC"/>
+    <text x="60" y="796" class="label">Need help with Dealio?</text>
+    <text x="60" y="811" class="muted">Open guide and support</text>
+
+    <!-- Edge handle -->
+    <rect x="334" y="394" width="34" height="64" rx="17" fill="#111A28" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M347 413L358 426L347 439" stroke="#C9D4E5" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,652 @@
+﻿{
+  "@@locale": "en",
+  "navHome": "Agent",
+  "navSearch": "Search",
+  "navProfile": "Profile",
+  "aboutTitle": "About Dealio",
+  "aboutSubtitle": "Built for smarter shopping",
+  "languageTitle": "App Language",
+  "languageSubtitle": "Search and AI results follow this language",
+  "langEnglish": "English",
+  "langRussian": "Russian",
+  "langSpanish": "Spanish",
+  "langUzbek": "Uzbek",
+  "langChinese": "Chinese",
+  "searchPlanUnlimited": "{plan} Plan - Unlimited search",
+  "@searchPlanUnlimited": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "searchPlanRemaining": "{plan} Plan - {remaining} searches left",
+  "@searchPlanRemaining": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "searchValidationQueryRequired": "Please enter a product",
+  "searchQueryHint": "e.g. iPhone 13 128GB",
+  "commonRetry": "Retry",
+  "searchUseUS": "Use US",
+  "searchFreeModeHint": "FREE mode: global stores are loaded automatically by country.",
+  "searchManualStoreHint": "Global store link/domain (amazon.com)",
+  "commonAdd": "Add",
+  "searchStoreSearchHint": "Search stores...",
+  "searchStoresEmpty": "Stores for the selected country will appear here.",
+  "searchStoresLoadFailed": "Failed to load stores. Please try again.",
+  "searchErrorCountryRequired": "Country is required. Please select a country first.",
+  "searchPlanLimitTitle": "Plan Limit Reached",
+  "searchPlanLimitMessage": "Your plan limit is reached. Upgrade to continue.",
+  "searchErrorEnterStoreDomain": "Enter a store domain or URL. Example: amazon.com",
+  "searchErrorStoreAlreadySelected": "This store is already selected.",
+  "searchErrorStoreLimit": "You can select up to {max} stores.",
+  "@searchErrorStoreLimit": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "commonEdit": "Edit",
+  "resultsLoadingTitle": "Scanning global stores...",
+  "alertsCheckNow": "Check now",
+  "alertSheetAllStores": "All stores",
+  "alertSheetUserConsent": "I approve one-tap checkout",
+  "alertsTargetNA": "Target: N/A",
+  "alertSheetStatHigh": "High",
+  "settingsLogoutSubtitle": "Securely sign out from this device",
+  "alertSheetTitle": "Create Price Alert",
+  "favoritesTitle": "Favorites",
+  "resultsEmptyDescription": "Try refining your keywords, country, or store settings.",
+  "planPlus": "Plus",
+  "resultsLoadingSubtitle": "Aggregating offers and AI matching in realtime.",
+  "resultsStage2ReadySubtitle": "AI profile generated, validating store confidence.",
+  "alertsTriggers": "Triggers: {count}",
+  "alertsDealButton": "Open deal",
+  "alertSheetCurrentTarget": "Current: {observed}  Target: {target}",
+  "settingsSearchesLeft": "{remaining}/{limit} searches left",
+  "planFree": "Free",
+  "commonLogout": "Logout",
+  "alertEventsEmpty": "No alert events yet.",
+  "commonSettings": "Settings",
+  "alertEventsError": "Failed to load events: {error}",
+  "resultsStage1ReadySubtitle": "Market scan complete, preparing AI profile.",
+  "alertSheetRefreshQuote": "Refresh quote",
+  "alertsEmptySubtitle": "Create your first alert from search results to track price drops.",
+  "alertSheetArmAutoBuy": "Arm auto-buy",
+  "resultsUpgradePlanTitle": "Upgrade your plan",
+  "alertSheetKvontTitle": "KVONT Auto-buy Controls",
+  "commonCancel": "Cancel",
+  "commonDelete": "Delete",
+  "resultsUnexpectedError": "Something unexpected happened during search.",
+  "resultsEmptyTitle": "No matching products found",
+  "alertSheetWaitingPrice": "Waiting for realtime price...",
+  "settingsThemeTitle": "Theme",
+  "favoritesEmptyTitle": "No favorites yet",
+  "commonUpgrade": "Upgrade",
+  "favoritesAnalyze": "Analyze",
+  "resultsStageFindingTitle": "Finding best offers",
+  "alertSheetTriggerSetup": "Trigger setup",
+  "resultsStageFindingSubtitle": "Collecting initial market signals.",
+  "alertSheetSaveButton": "Save Alert",
+  "alertSheetRealtimeMonitoring": "Realtime monitoring",
+  "resultsStage2ReadyTitle": "Stage 2 ready",
+  "settingsSubscriptionUnavailable": "Subscription unavailable",
+  "resultsUpgradeNow": "Upgrade now",
+  "alertSheetKvontSubtitle": "These options only prepare notification actions; payment still needs your confirmation.",
+  "resultsAdjustParameters": "Adjust search parameters",
+  "commonClear": "Clear",
+  "settingsPlanLabel": "{plan} Plan",
+  "alertsTargetValue": "Target: ${price}",
+  "alertSheetStoreTargeting": "Store targeting",
+  "resultsUpgradePlanMessage": "Move to a higher plan for more searches and deeper AI analysis.",
+  "alertSheetCooldownLabel": "Cooldown (minutes)",
+  "settingsDarkEnabled": "Dark mode enabled",
+  "alertsKvontPaywallMessage": "Unlock realtime alerts, price trend analytics, and checkout-ready links.",
+  "alertsKvontUpgradeMessage": "Upgrade to KVONT for realtime monitoring, trend charts, and auto-buy prep.",
+  "resultsProductsOptimized": "{count} products optimized",
+  "settingsNotificationsSubtitle": "Price alerts and app updates",
+  "planKvont": "Kvont",
+  "planPro": "Pro",
+  "resultsNeuralGlitch": "Search issue",
+  "alertSheetTargetInvalid": "Target must be lower than current price.",
+  "alertsKvontPaywallTitle": "KVONT Super Alerts",
+  "alertSheetStatTarget": "Target",
+  "alertSheetCheckoutPrepared": "Checkout link prepared",
+  "alertSheetStatLow": "Low",
+  "settingsPrivacySubtitle": "Manage privacy preferences",
+  "resultsStage3ReadyTitle": "Stage 3 ready",
+  "alertsLastTrigger": "Last trigger: {time}",
+  "resultsSearchQuotaTitle": "Search quota",
+  "resultsSearchLimitReached": "Search limit reached",
+  "alertSheetRealtimeUnavailable": "Realtime price unavailable. Refresh quote and try again.",
+  "alertsDeleteTitle": "Delete alert?",
+  "alertsEmptyTitle": "No active alerts",
+  "alertsCheckNowResult": "Checked: {checked}  Triggered: {triggered}  Errors: {errors}",
+  "alertEventsTitle": "Alert Events",
+  "resultsStage3ReadySubtitle": "Final ranking is ready with best alternatives.",
+  "alertSheetTrendTitle": "Price trend (recent)",
+  "commonManage": "Manage",
+  "favoritesStartShopping": "Start shopping",
+  "settingsNotificationsTitle": "Notifications",
+  "settingsLightEnabled": "Light mode enabled",
+  "alertSheetCooldownHelper": "Minimum 5 minutes, maximum 1440 minutes.",
+  "alertsKvontSubtitle": "Realtime worker keeps your alerts synced with store prices.",
+  "alertsCreateTooltip": "Create alert",
+  "settingsPrivacyTitle": "Privacy & Security",
+  "alertEventsTriggeredAt": "Triggered at ${triggerPrice} (target ${targetPrice})",
+  "alertSheetRealtimeMonitoringSubtitle": "Continuously checks prices for faster triggers.",
+  "resultsNeuralSearch": "Neural Search",
+  "alertsKvontActive": "KVONT realtime monitoring active",
+  "alertSheetRealtimePriceLabel": "Realtime price",
+  "alertsTitle": "Alerts",
+  "alertSheetDropAmount": "Drop $",
+  "alertEventsViewDeal": "View deal",
+  "alertSheetSaved": "Alert created successfully.",
+  "resultsStage1ReadyTitle": "Stage 1 ready",
+  "alertsDeleteMessage": "This action removes the alert and its realtime monitoring.",
+  "alertSheetDropPercent": "Drop %",
+  "favoritesSubtitle": "Your saved products and quick re-check list.",
+  "resultsTryAgain": "Try again",
+  "favoritesEmptySubtitle": "Save products to track better prices and safer alternatives.",
+  "alertsNever": "Never",
+  "alertsHistoryTooltip": "Alert history",
+  "@alertsTriggers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@alertSheetCurrentTarget": {
+    "placeholders": {
+      "target": {
+        "type": "String"
+      },
+      "observed": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertsTargetValue": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertsCheckNowResult": {
+    "placeholders": {
+      "checked": {
+        "type": "String"
+      },
+      "errors": {
+        "type": "String"
+      },
+      "triggered": {
+        "type": "String"
+      }
+    }
+  },
+  "@settingsPlanLabel": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertsLastTrigger": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertEventsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@resultsProductsOptimized": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@settingsSearchesLeft": {
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "@alertEventsTriggeredAt": {
+    "placeholders": {
+      "targetPrice": {
+        "type": "String"
+      },
+      "triggerPrice": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingSlide1Desc": "Instantly compare deals across global retailers to find the best price.",
+  "authEmailLabel": "Email",
+  "onboardingSlide2Desc": "AI verifies product originality and seller reliability before you buy.",
+  "authEmailHint": "you@example.com",
+  "loginCreateAccount": "Create new account",
+  "authFullNameMinChars": "Minimum {min} characters",
+  "profilePaymentMethodsSubtitle": "Credit cards & wallets",
+  "loginBackOnboarding": "Back to onboarding",
+  "onboardingNext": "Next",
+  "profileNotifications": "Notifications",
+  "profileSecurity": "Security",
+  "loginButton": "Login",
+  "authPasswordLabel": "Password",
+  "splashTagline": "Deals You Can Trust",
+  "onboardingSlide3Desc": "Understand real buyer feedback with smart sentiment summaries.",
+  "onboardingGetStarted": "Get Started",
+  "authFullNameLabel": "Full Name",
+  "registerCreateAccount": "Create Account",
+  "authPasswordHint": "Enter your password",
+  "profileSettingsPreferences": "Settings & Preferences",
+  "onboardingSlide4Title": "Smart Alerts",
+  "registerSubtitle": "Join Dealio and unlock smart shopping workflows",
+  "onboardingBack": "Back",
+  "loginWelcomeBack": "Welcome Back",
+  "onboardingSkip": "Skip",
+  "loginForgotPassword": "Forgot Password?",
+  "onboardingSlide1Title": "Global Price Comparison",
+  "registerButton": "Sign Up",
+  "authPasswordMinChars": "Minimum {min} characters",
+  "loginSignInContinue": "Sign in to continue",
+  "profileName": "Alex Robinson",
+  "profilePointsProgress": "{current} / {total} points",
+  "onboardingSlide4Desc": "Get notified when your target price is reached and act fast.",
+  "profileLogout": "Log Out",
+  "profileGoldStatus": "GOLD STATUS",
+  "registerSuccessTitle": "Registration Success",
+  "profilePaymentMethods": "Payment Methods",
+  "profileNotificationsSubtitle": "Deal alerts & app updates",
+  "profileCashbackBalance": "Cashback Balance",
+  "onboardingSlide2Title": "Authenticity Check",
+  "profileNextReward": "Next Reward: {amount}",
+  "authEmailInvalid": "Enter a valid email",
+  "authEmailRequired": "Email is required",
+  "authPasswordRequired": "Password is required",
+  "authFullNameRequired": "Full name is required",
+  "registerAlreadyHaveAccount": "Already have account? Login",
+  "onboardingSlide3Title": "Reviews & Insights",
+  "profileSecuritySubtitle": "Biometrics & passwords",
+  "@authFullNameMinChars": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@authPasswordMinChars": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "@profileNextReward": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "@profilePointsProgress": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "current": {
+        "type": "String"
+      }
+    }
+  },
+  "navFavorites": "Favorites",
+  "favoritesLoadFailed": "Saved list is out of sync",
+  "favoritesLoadSubtitle": "Dealio could not refresh your saved products right now. Check your connection, then sync again.",
+  "favoritesLoadAction": "Refresh saved list",
+  "favoritesProductFallback": "Product",
+  "favoritesNoNotes": "Saved product",
+  "favoritesSaveTooltip": "Save to favorites",
+  "favoritesRemoveTooltip": "Remove from favorites",
+  "favoritesSaved": "Saved to favorites.",
+  "favoritesRemoved": "Removed from favorites.",
+  "favoritesActionFailed": "Could not update saved list. Try again.",
+  "notificationsTitle": "Notifications",
+  "notificationsClearTitle": "Clear all?",
+  "notificationsClearMessage": "Are you sure you want to dismiss all notifications?",
+  "notificationsUnavailableTitle": "Notifications unavailable",
+  "notificationsUnavailableSubtitle": "We could not load alerts right now. Please try again soon.",
+  "notificationsAtStore": " at {store}",
+  "notificationsAlertMatched": "A tracked product matched your alert{price}{store}.",
+  "notificationsBackInStock": "Back in stock",
+  "notificationsDealFound": "Deal found",
+  "notificationsPriceAlert": "Price alert",
+  "notificationsJustNow": "Just now",
+  "notificationsMinutesAgo": "{count}m ago",
+  "notificationsHoursAgo": "{count}h ago",
+  "notificationsDaysAgo": "{count}d ago",
+  "notificationsTabAll": "All",
+  "notificationsTabPriceAlerts": "Price Alerts",
+  "notificationsTabAiInsights": "AI Insights",
+  "notificationsTabSustainability": "Sustainability",
+  "notificationsTabStoreUpdates": "Store Updates",
+  "notificationsViewProduct": "View Product",
+  "notificationsReanalyze": "Re-analyze",
+  "notificationsEmptyTitle": "No notifications yet",
+  "notificationsEmptySubtitle": "Create price alerts to receive real-time deal updates here.",
+  "alertPickerTitle": "Create price alert",
+  "alertPickerSubtitle": "Choose how you want to start. Search is best for comparison; manual link tracks one exact store page.",
+  "alertPickerSearchTitle": "Search product",
+  "alertPickerSearchSubtitle": "Find a product first, compare stores, then create an alert.",
+  "alertPickerManualTitle": "Manual store link",
+  "alertPickerManualSubtitle": "Paste any public product URL and monitor that exact page.",
+  "alertPickerPlanLimits": "Plan limits still apply: Free 3/month, Plus 10/month, Pro 100/month, KVONT 1000/month.",
+  "alertManualInvalidUrl": "Paste a full public http(s) product URL.",
+  "alertManualPriceUnavailable": "Current price is unavailable for this link.",
+  "alertManualLimitTitle": "Price alert limit reached",
+  "alertManualLimitMessage": "Your monthly alert quota is finished. Upgrade to create more alerts and unlock faster monitoring.",
+  "alertManualCreated": "Price alert created from store link.",
+  "alertManualTitle": "Manual link alert",
+  "alertManualSubtitle": "Paste a product URL. Dealio will read the price and monitor that exact store page.",
+  "alertManualStepLink": "1. Store product link",
+  "alertManualAnalyzeLink": "Analyze link",
+  "alertManualSecurityNote": "For security, only public http(s) product pages are accepted. Local/private network links are blocked on the backend.",
+  "alertManualWaitingAnalysis": "Waiting for analysis",
+  "alertManualAnalyzeForPrice": "Analyze the link to detect current price.",
+  "alertManualQuoteConfidence": "{store} - confidence {confidence}",
+  "alertManualStoreFallback": "Store",
+  "alertManualStepSignal": "2. Price signal",
+  "alertManualAnalyzeTargetHint": "Analyze the link first so we can calculate your target.",
+  "alertSheetStatNow": "Now",
+  "alertSheetStoreNameOptional": "Store name (optional)",
+  "alertSheetCustomStoreLink": "Or paste any store link",
+  "alertSheetCheckStore": "Check this store",
+  "alertSheetCustomStoreInvalid": "Enter a full http(s) product URL so Dealio can safely track this store.",
+  "alertSheetCustomStoreScope": "Custom store scope: {domain}",
+  "alertSheetAdvancedOptions": "Advanced options",
+  "alertSheetAdvancedSubtitle": "Cooldown and KVONT one-tap readiness.",
+  "resultsTopPick": "TOP PICK",
+  "resultsPriceSyncing": "PRICE SYNCING",
+  "resultsBestLivePrice": "BEST LIVE PRICE",
+  "resultsCheckingStores": "Checking stores",
+  "resultsReady": "Ready",
+  "resultsLive": "Live",
+  "resultsDealioTake": "Dealio take",
+  "resultsPricePending": "Price pending",
+  "resultsFinalAiDelayed": "Final AI ranking was delayed, but store results are ready.",
+  "resultsStoreValidationDelayed": "Store validation was delayed, continuing with available matches.",
+  "resultsProductFallback": "Product",
+  "resultsSmartMatch": "Smart match",
+  "@notificationsAtStore": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsAlertMatched": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@alertManualQuoteConfidence": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      },
+      "confidence": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertSheetCustomStoreScope": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "resultsLiveOffersTitle": "Live store prices",
+  "resultsLiveOffersSubtitle": "Real offers returned for this search.",
+  "resultsBestBadge": "BEST",
+  "resultsOfferAvailable": "Available",
+  "resultsOfferUnavailable": "Unavailable",
+  "resultsFitLabel": "FIT",
+  "resultsFitScore": "{score} fit",
+  "resultsCountryFallback": "Global",
+  "resultsProviderFallback": "Smart",
+  "resultsOpenProductTooltip": "View product details",
+  "resultsOpenDealTooltip": "Open store deal",
+  "resultsCreateAlertTooltip": "Create price alert",
+  "resultsMatchesSubtitle": "Real products returned for this search.",
+  "resultsNoLiveOffers": "Live store prices appear when verified offers are available.",
+  "resultsStoreFallback": "Store",
+  "@resultsFitScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatTitle": "Dealio",
+  "aiChatSubtitle": "Shopping-only personal advisor",
+  "aiChatNewChat": "New chat",
+  "aiChatHistory": "Chats",
+  "aiChatRenameChat": "Rename chat",
+  "aiChatDeleteChat": "Delete chat",
+  "aiChatRenameTitle": "Rename chat",
+  "aiChatRenameHint": "Chat name",
+  "aiChatRenameSave": "Save name",
+  "aiChatDeleteTitle": "Delete chat?",
+  "aiChatDeleteBody": "This removes the chat from your history. You can start a new one anytime.",
+  "aiChatDeleteConfirm": "Delete chat",
+  "aiChatActionFailed": "Could not update this chat. Please try again.",
+  "aiChatManualActions": "Manual tools",
+  "aiChatAddToChat": "Add to chat",
+  "aiChatAttachBarcode": "Barcode scan",
+  "aiChatAttachImage": "Image search",
+  "aiChatEmptyNameFallback": "Friend",
+  "aiChatEmptyTitle": "{name}, what are we buying today?",
+  "@aiChatEmptyTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiChatEmptySubtitle": "I'm ready.",
+  "aiChatErrorReply": "Temporary AI issue. Please retry, or share your budget, country, and top priorities so I can guide you safely.",
+  "aiChatInputHint": "Write to Dealio...",
+  "aiChatThinkingAnalyzing": "Analyzing your request",
+  "aiChatThinkingSearching": "Searching trusted stores",
+  "aiChatThinkingPricing": "Checking price signals",
+  "aiChatThinkingRanking": "Ranking best options",
+  "aiChatEmptyHintPrefix": "Try",
+  "aiChatEmptyHintCamera": "Find a phone with a strong camera under $900",
+  "aiChatEmptyHintBudget": "Compare trusted stores for my budget",
+  "aiChatEmptyHintAlert": "Tell me when this product drops in price",
+  "aiAgentActionNeeds": "Ask needs",
+  "aiAgentActionResults": "Best results",
+  "aiAgentActionAlert": "Price alert",
+  "aiAgentActionAdvice": "Advice",
+  "aiAgentActionCompare": "Compare stores",
+  "aiAgentFeedbackHelpful": "Helpful",
+  "aiAgentFeedbackImprove": "Improve",
+  "aiAgentFeedbackSaved": "Feedback noted",
+  "aiAgentFeedbackHelpfulThanks": "Thanks — signal noted.",
+  "aiAgentFeedbackImproveThanks": "Got it — I’ll tune the next answer.",
+  "aiAgentPromptNeeds": "Ask me 3 short questions to understand my needs, budget, country, and priorities before recommending products.",
+  "aiAgentPromptResults": "Show the best product options as a concise ranked list with price, trust, pros, cons, and the safest next step.",
+  "aiAgentPromptAdvice": "Give me a short buying recommendation: what to choose, what to avoid, and why.",
+  "aiAgentPromptCompareStores": "Compare trusted stores for this product by price, delivery, return policy, authenticity, and risk.",
+  "aiStructuredDecision": "DEALIO DECISION",
+  "aiStructuredBestMatches": "BEST MATCHES",
+  "aiStructuredQuestions": "QUESTIONS",
+  "aiStructuredPriceWatch": "PRICE WATCH",
+  "aiStructuredPriceWatchSubtitle": "I can watch this price and notify you when it becomes safer to buy.",
+  "aiStructuredStartAlert": "Track",
+  "aiAgentAlertTitle": "Watch this price?",
+  "aiAgentAlertSubtitle": "Dealio will check fresh prices and notify you when the target is reached.",
+  "aiAgentAlertLoading": "Checking the latest price...",
+  "aiAgentAlertQuoteUnavailable": "I could not read a reliable price yet. Paste a product link or use advanced setup.",
+  "aiAgentAlertPasteLink": "Paste a product link so Dealio can track it.",
+  "aiAgentAlertLinkHint": "https://store.com/product...",
+  "aiAgentAlertCheckLink": "Check link",
+  "aiAgentAlertCreate": "Create alert",
+  "aiAgentAlertAdvanced": "Advanced setup",
+  "aiAgentAlertSelectedProduct": "Selected product",
+  "aiAgentAlertCurrent": "Now",
+  "aiAgentAlertTarget": "Target",
+  "aiAgentAlertAnyStore": "Any trusted store",
+  "aiAgentAlertStoreScope": "Tracking scope: {store}",
+  "@aiAgentAlertStoreScope": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentAlertPriceUnknown": "Unknown",
+  "aiAgentAlertNeedProduct": "I need a product or store link to create this alert.",
+  "aiAgentAlertCreatedMessage": "Price watch is live. I’ll notify you when the target is reached.",
+  "aiAgentSearchResults": "I found {count} strong result(s) for “{query}”.",
+  "@aiAgentSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAgentSearchNoResults": "I could not find strong product matches for “{query}” yet. Try adding budget, country, or store preference.",
+  "@aiAgentSearchNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentSearchFailed": "Agent search is temporarily unavailable. I can still help refine the query.",
+  "aiStructuredMatchScore": "{score}% match",
+  "@aiStructuredMatchScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatUserLabel": "You",
+  "aiChatAssistantLabel": "Dealio AI",
+  "searchHistoryEmpty": "Recent searches will appear here",
+  "searchHeaderTitle": "Dealio Search",
+  "searchQuotaCompact": "{plan} • {remaining} left",
+  "@searchQuotaCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "searchQuotaUnlimitedCompact": "{plan} • unlimited",
+  "@searchQuotaUnlimitedCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "searchInputLabel": "Search",
+  "searchButtonLabel": "Search",
+  "searchAiNeedsTitle": "Dealio AI",
+  "searchAiNeedsSubtitle": "Write your needs to Dealio.",
+  "searchAiNeedsHint": "Example: strong battery, good camera, lightweight, under $900...",
+  "searchNeedChipCamera": "camera",
+  "searchNeedChipBattery": "battery",
+  "searchNeedChipBudget": "under $900",
+  "searchNeedChipDurable": "durable",
+  "searchRecentTitle": "Recent searches",
+  "searchFiltersTitle": "Filters",
+  "searchFiltersSubtitle": "Country, stores, and budget",
+  "searchFiltersButton": "Filters",
+  "searchFiltersApply": "Apply filters",
+  "searchFiltersClearStores": "Clear stores",
+  "searchBudgetLabel": "Budget",
+  "searchBudgetActive": "Budget set",
+  "searchBudgetHint": "Optional max price",
+  "searchBudgetInvalid": "Enter a valid budget",
+  "searchCountryLabel": "Country",
+  "searchStoresLabel": "Choose stores only when needed.",
+  "searchAdvancedTitle": "Advanced",
+  "searchGlobalScope": "Global stores",
+  "searchSelectedScope": "{count} selected stores",
+  "@searchSelectedScope": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryStores": "{count} stores",
+  "@searchHistoryStores": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryContext": "context",
+  "searchCountryFallback": "Country"
+}

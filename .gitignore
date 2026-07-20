@@ -1,1 +1,28 @@
+# Dart / Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
 
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Platform-generated files
+**/android/.gradle/
+**/android/local.properties
+**/ios/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated coverage and reports
+coverage/

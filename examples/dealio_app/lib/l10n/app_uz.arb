@@ -1,0 +1,512 @@
+﻿{
+  "@@locale": "uz",
+  "navHome": "Agent",
+  "navSearch": "Qidiruv",
+  "navProfile": "Profil",
+  "aboutTitle": "Dealio haqida",
+  "aboutSubtitle": "Aqlliroq xarid qilish uchun yaratilgan",
+  "languageTitle": "Ilova tili",
+  "languageSubtitle": "Qidiruv va AI natijalari shu tilda chiqadi",
+  "langEnglish": "Ingliz",
+  "langRussian": "Rus",
+  "langSpanish": "Ispan",
+  "langUzbek": "O'zbek",
+  "langChinese": "Xitoy",
+  "searchPlanUnlimited": "{plan} rejim - cheksiz qidiruv",
+  "searchPlanRemaining": "{plan} rejim - {remaining} ta qidiruv qoldi",
+  "searchValidationQueryRequired": "Mahsulot kiriting",
+  "searchQueryHint": "masalan, iPhone 13 128GB",
+  "commonRetry": "Qayta urinish",
+  "searchUseUS": "US dan foydalanish",
+  "searchFreeModeHint": "FREE rejim: global do'konlar davlatga qarab avtomatik yuklanadi.",
+  "searchManualStoreHint": "Global do'kon linki/domeni (amazon.com)",
+  "commonAdd": "Qo'shish",
+  "searchStoreSearchHint": "Do'kon qidirish...",
+  "searchStoresEmpty": "Tanlangan davlat do'konlari shu yerda chiqadi.",
+  "searchStoresLoadFailed": "Do'konlarni yuklab bo'lmadi. Qayta urinib ko'ring.",
+  "searchErrorCountryRequired": "Davlat majburiy. Avval davlatni tanlang.",
+  "searchPlanLimitTitle": "Reja limiti tugadi",
+  "searchPlanLimitMessage": "Rejangiz limiti tugagan. Davom etish uchun yangilang.",
+  "searchErrorEnterStoreDomain": "Do'kon domeni yoki URL kiriting. Masalan: amazon.com",
+  "searchErrorStoreAlreadySelected": "Bu do'kon allaqachon tanlangan.",
+  "searchErrorStoreLimit": "Maksimal {max} ta do'kon tanlash mumkin.",
+  "commonEdit": "Tahrirlash",
+  "resultsLoadingTitle": "Global do'konlar skan qilinmoqda...",
+  "alertsCheckNow": "Hozir tekshirish",
+  "alertSheetAllStores": "Barcha do'konlar",
+  "alertSheetUserConsent": "Bir-tegish checkout uchun roziman",
+  "alertsTargetNA": "Maqsad: N/A",
+  "alertSheetStatHigh": "Yuqori",
+  "settingsLogoutSubtitle": "Qurilmadan xavfsiz chiqish",
+  "alertSheetTitle": "Narx alertini yaratish",
+  "favoritesTitle": "Sevimlilar",
+  "resultsEmptyDescription": "Kalit so'zlar, davlat yoki do'kon sozlamalarini o'zgartirib ko'ring.",
+  "planPlus": "Plus",
+  "resultsLoadingSubtitle": "Takliflar va AI moslik realtime yig'ilmoqda.",
+  "resultsStage2ReadySubtitle": "AI profili yaratildi, do'kon ishonchliligi tekshirilmoqda.",
+  "alertsTriggers": "Triggerlar: {count}",
+  "alertsDealButton": "Taklifni ochish",
+  "alertSheetCurrentTarget": "Joriy: {observed}  Maqsad: {target}",
+  "settingsSearchesLeft": "{remaining}/{limit} qidiruv qoldi",
+  "planFree": "Free",
+  "commonLogout": "Chiqish",
+  "alertEventsEmpty": "Hali alert voqealari yo'q.",
+  "commonSettings": "Sozlamalar",
+  "alertEventsError": "Voqealarni yuklab bo'lmadi: {error}",
+  "resultsStage1ReadySubtitle": "Bozor skani tugadi, AI profili tayyorlanmoqda.",
+  "alertSheetRefreshQuote": "Quote yangilash",
+  "alertsEmptySubtitle": "Narx tushishini kuzatish uchun qidiruv natijasidan birinchi alertni yarating.",
+  "alertSheetArmAutoBuy": "Auto-buy ni yoqish",
+  "resultsUpgradePlanTitle": "Rejani yangilang",
+  "alertSheetKvontTitle": "KVONT Auto-buy boshqaruvi",
+  "commonCancel": "Bekor qilish",
+  "commonDelete": "O'chirish",
+  "resultsUnexpectedError": "Qidiruvda kutilmagan xatolik yuz berdi.",
+  "resultsEmptyTitle": "Mos mahsulot topilmadi",
+  "alertSheetWaitingPrice": "Realtime narx kutilmoqda...",
+  "settingsThemeTitle": "Mavzu",
+  "favoritesEmptyTitle": "Sevimlilar hozircha yo'q",
+  "commonUpgrade": "Yangilash",
+  "favoritesAnalyze": "Tahlil qilish",
+  "resultsStageFindingTitle": "Eng yaxshi takliflar topilmoqda",
+  "alertSheetTriggerSetup": "Trigger sozlamalari",
+  "resultsStageFindingSubtitle": "Bozor bo'yicha dastlabki signallar yig'ilmoqda.",
+  "alertSheetSaveButton": "Alertni saqlash",
+  "alertSheetRealtimeMonitoring": "Realtime monitoring",
+  "resultsStage2ReadyTitle": "2-bosqich tayyor",
+  "settingsSubscriptionUnavailable": "Obuna ma'lumotini olib bo'lmadi",
+  "resultsUpgradeNow": "Hozir yangilash",
+  "alertSheetKvontSubtitle": "Bu sozlamalar faqat bildirishnoma harakatlarini tayyorlaydi; tolov baribir sizning tasdiqingizni talab qiladi.",
+  "resultsAdjustParameters": "Qidiruv parametrlarini sozlash",
+  "commonClear": "Tozalash",
+  "settingsPlanLabel": "{plan} rejim",
+  "alertsTargetValue": "Maqsad: ${price}",
+  "alertSheetStoreTargeting": "Do'kon tanlash",
+  "resultsUpgradePlanMessage": "Ko'proq qidiruv va chuqurroq AI tahlil uchun yuqori rejimga o'ting.",
+  "alertSheetCooldownLabel": "Cooldown (daqiqalarda)",
+  "settingsDarkEnabled": "Tungi rejim yoqilgan",
+  "alertsKvontPaywallMessage": "Realtime alertlar, narx trend tahlili va checkout linklarni oching.",
+  "alertsKvontUpgradeMessage": "Realtime monitoring, trend grafiklar va auto-buy tayyorlash uchun KVONTga o'ting.",
+  "resultsProductsOptimized": "{count} ta mahsulot optimallashtirildi",
+  "settingsNotificationsSubtitle": "Narx alertlari va ilova yangiliklari",
+  "planKvont": "Kvont",
+  "planPro": "Pro",
+  "resultsNeuralGlitch": "Qidiruv muammosi",
+  "alertSheetTargetInvalid": "Maqsad narx joriy narxdan past bo'lishi kerak.",
+  "alertsKvontPaywallTitle": "KVONT Super Alertlar",
+  "alertSheetStatTarget": "Maqsad",
+  "alertSheetCheckoutPrepared": "Checkout havola tayyor",
+  "alertSheetStatLow": "Past",
+  "settingsPrivacySubtitle": "Maxfiylik sozlamalarini boshqarish",
+  "resultsStage3ReadyTitle": "3-bosqich tayyor",
+  "alertsLastTrigger": "Oxirgi trigger: {time}",
+  "resultsSearchQuotaTitle": "Qidiruv kvotasi",
+  "resultsSearchLimitReached": "Qidiruv limiti tugadi",
+  "alertSheetRealtimeUnavailable": "Realtime narx mavjud emas. Quote yangilab qayta urinib ko'ring.",
+  "alertsDeleteTitle": "Alert o'chirilsinmi?",
+  "alertsEmptyTitle": "Faol alertlar yo'q",
+  "alertsCheckNowResult": "Tekshirildi: {checked}  Trigger: {triggered}  Xatolar: {errors}",
+  "alertEventsTitle": "Alert voqealari",
+  "resultsStage3ReadySubtitle": "Yakuniy reyting eng yaxshi alternativalar bilan tayyor.",
+  "alertSheetTrendTitle": "Narx trendi (so'nggi)",
+  "commonManage": "Boshqarish",
+  "favoritesStartShopping": "Qidiruvni boshlash",
+  "settingsNotificationsTitle": "Bildirishnomalar",
+  "settingsLightEnabled": "Yorug' rejim yoqilgan",
+  "alertSheetCooldownHelper": "Kamida 5 daqiqa, ko'pi bilan 1440 daqiqa.",
+  "alertsKvontSubtitle": "Realtime worker alertlaringizni do'kon narxlari bilan sinxron tutadi.",
+  "alertsCreateTooltip": "Alert yaratish",
+  "settingsPrivacyTitle": "Maxfiylik va xavfsizlik",
+  "alertEventsTriggeredAt": "Ishga tushdi: ${triggerPrice} (maqsad ${targetPrice})",
+  "alertSheetRealtimeMonitoringSubtitle": "Tez trigger uchun narxlar uzluksiz tekshiriladi.",
+  "resultsNeuralSearch": "Neural Search",
+  "alertsKvontActive": "KVONT realtime monitoring faol",
+  "alertSheetRealtimePriceLabel": "Realtime narx",
+  "alertsTitle": "Alertlar",
+  "alertSheetDropAmount": "Pasayish $",
+  "alertEventsViewDeal": "Taklifni ko'rish",
+  "alertSheetSaved": "Alert muvaffaqiyatli yaratildi.",
+  "resultsStage1ReadyTitle": "1-bosqich tayyor",
+  "alertsDeleteMessage": "Bu amal alert va uning realtime monitoringini o'chiradi.",
+  "alertSheetDropPercent": "Pasayish %",
+  "favoritesSubtitle": "Saqlangan mahsulotlar va tez qayta tekshiruv ro'yxati.",
+  "resultsTryAgain": "Qayta urinish",
+  "favoritesEmptySubtitle": "Yaxshi narx va xavfsiz alternativalarni kuzatish uchun mahsulot saqlang.",
+  "alertsNever": "Hech qachon",
+  "alertsHistoryTooltip": "Alert tarixi",
+  "onboardingSlide1Desc": "Eng yaxshi narxni topish uchun global do'konlar takliflarini tez solishtiring.",
+  "authEmailLabel": "Email",
+  "onboardingSlide2Desc": "AI mahsulot aslligi va sotuvchi ishonchliligini xariddan oldin tekshiradi.",
+  "authEmailHint": "you@example.com",
+  "loginCreateAccount": "Yangi akkaunt yaratish",
+  "authFullNameMinChars": "Kamida {min} ta belgi",
+  "profilePaymentMethodsSubtitle": "Karta va hamyonlar",
+  "loginBackOnboarding": "Onboardingga qaytish",
+  "onboardingNext": "Keyingi",
+  "profileNotifications": "Bildirishnomalar",
+  "profileSecurity": "Xavfsizlik",
+  "loginButton": "Kirish",
+  "authPasswordLabel": "Parol",
+  "splashTagline": "Ishonchli takliflar",
+  "onboardingSlide3Desc": "Haqiqiy xaridor fikrlarini smart sentiment tahlili bilan tushuning.",
+  "onboardingGetStarted": "Boshlash",
+  "authFullNameLabel": "To'liq ism",
+  "registerCreateAccount": "Akkaunt yaratish",
+  "authPasswordHint": "Parolingizni kiriting",
+  "profileSettingsPreferences": "Sozlamalar va afzalliklar",
+  "onboardingSlide4Title": "Aqlli alertlar",
+  "registerSubtitle": "Dealio ga qo'shiling va aqlli shopping imkoniyatlarini oching",
+  "onboardingBack": "Orqaga",
+  "loginWelcomeBack": "Xush kelibsiz",
+  "onboardingSkip": "O'tkazib yuborish",
+  "loginForgotPassword": "Parolni unutdingizmi?",
+  "onboardingSlide1Title": "Global narx taqqoslash",
+  "registerButton": "Ro'yxatdan o'tish",
+  "authPasswordMinChars": "Kamida {min} ta belgi",
+  "loginSignInContinue": "Davom etish uchun tizimga kiring",
+  "profileName": "Alex Robinson",
+  "profilePointsProgress": "{current} / {total} ball",
+  "onboardingSlide4Desc": "Maqsad narxga yetganda darhol bildirishnoma oling va tez harakat qiling.",
+  "profileLogout": "Chiqish",
+  "profileGoldStatus": "OLTIN STATUS",
+  "registerSuccessTitle": "Ro'yxatdan o'tish muvaffaqiyatli",
+  "profilePaymentMethods": "To'lov usullari",
+  "profileNotificationsSubtitle": "Deal alertlari va ilova yangiliklari",
+  "profileCashbackBalance": "Cashback balansi",
+  "onboardingSlide2Title": "Asllik tekshiruvi",
+  "profileNextReward": "Keyingi mukofot: {amount}",
+  "authEmailInvalid": "To'g'ri email kiriting",
+  "authEmailRequired": "Email majburiy",
+  "authPasswordRequired": "Parol majburiy",
+  "authFullNameRequired": "To'liq ism majburiy",
+  "registerAlreadyHaveAccount": "Akkauntingiz bormi? Kirish",
+  "onboardingSlide3Title": "Sharhlar va insightlar",
+  "profileSecuritySubtitle": "Biometriya va parollar",
+  "navFavorites": "Sevimlilar",
+  "favoritesLoadFailed": "Saqlanganlar sinxronlanmadi",
+  "favoritesLoadSubtitle": "Dealio hozir sevimlilar ro'yxatini yangilay olmadi. Internetni tekshirib, yana sinab ko'ring.",
+  "favoritesLoadAction": "Ro'yxatni yangilash",
+  "favoritesProductFallback": "Mahsulot",
+  "favoritesNoNotes": "Saqlangan mahsulot",
+  "favoritesSaveTooltip": "Sevimlilarga saqlash",
+  "favoritesRemoveTooltip": "Sevimlilardan olib tashlash",
+  "favoritesSaved": "Sevimlilarga saqlandi.",
+  "favoritesRemoved": "Sevimlilardan olib tashlandi.",
+  "favoritesActionFailed": "Saqlanganlar ro'yxatini yangilab bo'lmadi. Qayta urinib ko'ring.",
+  "notificationsTitle": "Bildirishnomalar",
+  "notificationsClearTitle": "Hammasi tozalansinmi?",
+  "notificationsClearMessage": "Barcha bildirishnomalarni yopishni xohlaysizmi?",
+  "notificationsUnavailableTitle": "Bildirishnomalar mavjud emas",
+  "notificationsUnavailableSubtitle": "Alertlarni hozir yuklab bo'lmadi. Keyinroq qayta urinib ko'ring.",
+  "notificationsAtStore": " - {store}",
+  "notificationsAlertMatched": "Kuzatilayotgan mahsulot alert shartiga mos keldi{price}{store}.",
+  "notificationsBackInStock": "Qayta omborda",
+  "notificationsDealFound": "Taklif topildi",
+  "notificationsPriceAlert": "Narx alerti",
+  "notificationsJustNow": "Hozirgina",
+  "notificationsMinutesAgo": "{count} daqiqa oldin",
+  "notificationsHoursAgo": "{count} soat oldin",
+  "notificationsDaysAgo": "{count} kun oldin",
+  "notificationsTabAll": "Hammasi",
+  "notificationsTabPriceAlerts": "Narx alertlari",
+  "notificationsTabAiInsights": "AI maslahatlar",
+  "notificationsTabSustainability": "Barqarorlik",
+  "notificationsTabStoreUpdates": "Dokon yangiliklari",
+  "notificationsViewProduct": "Mahsulotni ko'rish",
+  "notificationsReanalyze": "Qayta tahlil",
+  "notificationsEmptyTitle": "Hozircha bildirishnoma yo'q",
+  "notificationsEmptySubtitle": "Real-time taklif yangiliklari uchun narx alertlarini yarating.",
+  "alertPickerTitle": "Narx alerti yaratish",
+  "alertPickerSubtitle": "Qanday boshlashni tanlang. Qidiruv solishtirish uchun, manual link esa aniq dokon sahifasi uchun qulay.",
+  "alertPickerSearchTitle": "Mahsulot qidirish",
+  "alertPickerSearchSubtitle": "Avval mahsulotni toping, dokonlarni solishtiring, keyin alert yarating.",
+  "alertPickerManualTitle": "Manual dokon linki",
+  "alertPickerManualSubtitle": "Ochiq product URL kiriting va aynan shu sahifani kuzating.",
+  "alertPickerPlanLimits": "Plan limitlari amal qiladi: Free 3/oy, Plus 10/oy, Pro 100/oy, KVONT 1000/oy.",
+  "alertManualInvalidUrl": "Toliq public http(s) product URL kiriting.",
+  "alertManualPriceUnavailable": "Bu link uchun joriy narx mavjud emas.",
+  "alertManualLimitTitle": "Narx alert limiti tugadi",
+  "alertManualLimitMessage": "Oylik alert kvotangiz tugadi. Koproq alert va tezroq monitoring uchun planingizni yangilang.",
+  "alertManualCreated": "Dokon linkidan narx alerti yaratildi.",
+  "alertManualTitle": "Manual link alert",
+  "alertManualSubtitle": "Product URL kiriting. Dealio narxni oqib, aynan shu dokon sahifasini kuzatadi.",
+  "alertManualStepLink": "1. Dokon product linki",
+  "alertManualAnalyzeLink": "Linkni tahlil qilish",
+  "alertManualSecurityNote": "Xavfsizlik uchun faqat public http(s) product sahifalari qabul qilinadi. Local/private network linklari backendda bloklanadi.",
+  "alertManualWaitingAnalysis": "Tahlil kutilmoqda",
+  "alertManualAnalyzeForPrice": "Joriy narxni aniqlash uchun linkni tahlil qiling.",
+  "alertManualQuoteConfidence": "{store} - ishonch {confidence}",
+  "alertManualStoreFallback": "Dokon",
+  "alertManualStepSignal": "2. Narx signali",
+  "alertManualAnalyzeTargetHint": "Targetni hisoblash uchun avval linkni tahlil qiling.",
+  "alertSheetStatNow": "Hozir",
+  "alertSheetStoreNameOptional": "Dokon nomi (ixtiyoriy)",
+  "alertSheetCustomStoreLink": "Yoki dokon linkini kiriting",
+  "alertSheetCheckStore": "Bu dokonni tekshirish",
+  "alertSheetCustomStoreInvalid": "Dealio xavfsiz kuzatishi uchun toliq http(s) product URL kiriting.",
+  "alertSheetCustomStoreScope": "Custom dokon doirasi: {domain}",
+  "alertSheetAdvancedOptions": "Qoshimcha sozlamalar",
+  "alertSheetAdvancedSubtitle": "Cooldown va KVONT bir-tegish tayyorgarligi.",
+  "resultsTopPick": "ENG MOS",
+  "resultsPriceSyncing": "NARX SINXRONLANMOQDA",
+  "resultsBestLivePrice": "ENG YAXSHI LIVE NARX",
+  "resultsCheckingStores": "Dokonlar tekshirilmoqda",
+  "resultsReady": "Tayyor",
+  "resultsLive": "Live",
+  "resultsDealioTake": "Dealio xulosasi",
+  "resultsPricePending": "Narx kutilmoqda",
+  "resultsFinalAiDelayed": "Yakuniy AI reyting kechikdi, lekin dokon natijalari tayyor.",
+  "resultsStoreValidationDelayed": "Dokon tekshiruvi kechikdi, mavjud natijalar bilan davom etamiz.",
+  "resultsProductFallback": "Mahsulot",
+  "resultsSmartMatch": "Aqlli moslik",
+  "@notificationsAtStore": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsAlertMatched": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "@notificationsMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@notificationsDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@alertManualQuoteConfidence": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      },
+      "confidence": {
+        "type": "String"
+      }
+    }
+  },
+  "@alertSheetCustomStoreScope": {
+    "placeholders": {
+      "domain": {
+        "type": "String"
+      }
+    }
+  },
+  "resultsLiveOffersTitle": "Live dokon narxlari",
+  "resultsLiveOffersSubtitle": "Bu qidiruvdan qaytgan real takliflar.",
+  "resultsBestBadge": "ENG YAXSHI",
+  "resultsOfferAvailable": "Mavjud",
+  "resultsOfferUnavailable": "Mavjud emas",
+  "resultsFitLabel": "MOS",
+  "resultsFitScore": "{score} mos",
+  "resultsCountryFallback": "Global",
+  "resultsProviderFallback": "Smart",
+  "resultsOpenProductTooltip": "Mahsulot tafsilotlari",
+  "resultsOpenDealTooltip": "Dokon taklifini ochish",
+  "resultsCreateAlertTooltip": "Narx alerti yaratish",
+  "resultsMatchesSubtitle": "Bu qidiruvdan qaytgan real mahsulotlar.",
+  "resultsNoLiveOffers": "Tasdiqlangan takliflar kelganda live dokon narxlari shu yerda korinadi.",
+  "resultsStoreFallback": "Dokon",
+  "@resultsFitScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatTitle": "Dealio",
+  "aiChatSubtitle": "Faqat shopping uchun shaxsiy maslahatchi",
+  "aiChatNewChat": "Yangi chat",
+  "aiChatHistory": "Chatlar",
+  "aiChatRenameChat": "Chat nomini o'zgartirish",
+  "aiChatDeleteChat": "Chatni o'chirish",
+  "aiChatRenameTitle": "Chat nomini o'zgartirish",
+  "aiChatRenameHint": "Chat nomi",
+  "aiChatRenameSave": "Nomni saqlash",
+  "aiChatDeleteTitle": "Chat o'chirilsinmi?",
+  "aiChatDeleteBody": "Bu chat tarixingizdan olib tashlanadi. Istalgan payt yangi chat boshlashingiz mumkin.",
+  "aiChatDeleteConfirm": "Chatni o'chirish",
+  "aiChatActionFailed": "Bu chatni yangilab bo'lmadi. Qayta urinib ko'ring.",
+  "aiChatManualActions": "Manual vositalar",
+  "aiChatAddToChat": "Chatga qo‘shish",
+  "aiChatAttachBarcode": "Barcode skan",
+  "aiChatAttachImage": "Rasm orqali qidirish",
+  "aiChatEmptyNameFallback": "Do‘stim",
+  "aiChatEmptyTitle": "{name}, bugun nimalar sotib olamiz!",
+  "@aiChatEmptyTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "aiChatEmptySubtitle": "Men tayyorman.",
+  "aiChatErrorReply": "AI vaqtincha javob bera olmadi. Qayta urinib koring yoki budjet, davlat va eng muhim talablarni yozing.",
+  "aiChatInputHint": "Dealio'ga yozing...",
+  "aiChatThinkingAnalyzing": "So‘rovingiz tahlil qilinmoqda",
+  "aiChatThinkingSearching": "Do‘konlar qidirilmoqda",
+  "aiChatThinkingPricing": "Narx tekshirilmoqda",
+  "aiChatThinkingRanking": "Variantlar saralanmoqda",
+  "aiChatEmptyHintPrefix": "Masalan",
+  "aiChatEmptyHintCamera": "Kuchli kamerali telefonni $900 gacha top",
+  "aiChatEmptyHintBudget": "Budjetimga mos ishonchli do‘konlarni solishtir",
+  "aiChatEmptyHintAlert": "Bu mahsulot arzonlashsa menga xabar ber",
+  "aiAgentActionNeeds": "Ehtiyojni so‘rash",
+  "aiAgentActionResults": "Eng mos natijalar",
+  "aiAgentActionAlert": "Narx alerti",
+  "aiAgentActionAdvice": "Maslahat",
+  "aiAgentActionCompare": "Do‘konlarni solishtirish",
+  "aiAgentFeedbackHelpful": "Foydali",
+  "aiAgentFeedbackImprove": "Yaxshila",
+  "aiAgentFeedbackSaved": "Fikr qabul qilindi",
+  "aiAgentFeedbackHelpfulThanks": "Rahmat — signal qabul qilindi.",
+  "aiAgentFeedbackImproveThanks": "Tushunarli — keyingi javobni moslayman.",
+  "aiAgentPromptNeeds": "Mahsulot tavsiya qilishdan oldin ehtiyojim, budjetim, davlatim va ustuvor talablarimni tushunish uchun menga 3 ta qisqa savol ber.",
+  "aiAgentPromptResults": "Eng yaxshi mahsulot variantlarini narx, ishonchlilik, afzallik, kamchilik va eng xavfsiz keyingi qadam bilan qisqa reyting qilib ko‘rsat.",
+  "aiAgentPromptAdvice": "Qisqa xarid maslahati ber: nimani tanlash kerak, nimadan saqlanish kerak va nima uchun.",
+  "aiAgentPromptCompareStores": "Bu mahsulot uchun ishonchli do‘konlarni narx, yetkazib berish, qaytarish siyosati, haqiqiylik va risk bo‘yicha solishtir.",
+  "aiStructuredDecision": "DEALIO QARORI",
+  "aiStructuredBestMatches": "ENG MOS NATIJALAR",
+  "aiStructuredQuestions": "SAVOLLAR",
+  "aiStructuredPriceWatch": "NARX KUZATUVI",
+  "aiStructuredPriceWatchSubtitle": "Bu narxni kuzatib, sotib olish xavfsizroq bo‘lganda xabar bera olaman.",
+  "aiStructuredStartAlert": "Kuzatish",
+  "aiAgentAlertTitle": "Bu narxni kuzataymi?",
+  "aiAgentAlertSubtitle": "Dealio yangi narxlarni tekshiradi va maqsad narxga yetganda xabar beradi.",
+  "aiAgentAlertLoading": "So‘nggi narx tekshirilmoqda...",
+  "aiAgentAlertQuoteUnavailable": "Hozircha ishonchli narxni o‘qiy olmadim. Mahsulot linkini kiriting yoki advanced sozlamadan foydalaning.",
+  "aiAgentAlertPasteLink": "Dealio kuzatishi uchun mahsulot linkini kiriting.",
+  "aiAgentAlertLinkHint": "https://store.com/product...",
+  "aiAgentAlertCheckLink": "Linkni tekshirish",
+  "aiAgentAlertCreate": "Alert yaratish",
+  "aiAgentAlertAdvanced": "Advanced sozlama",
+  "aiAgentAlertSelectedProduct": "Tanlangan mahsulot",
+  "aiAgentAlertCurrent": "Hozir",
+  "aiAgentAlertTarget": "Maqsad",
+  "aiAgentAlertAnyStore": "Ishonchli do‘konlar",
+  "aiAgentAlertStoreScope": "Kuzatuv doirasi: {store}",
+  "@aiAgentAlertStoreScope": {
+    "placeholders": {
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentAlertPriceUnknown": "Nomaʼlum",
+  "aiAgentAlertNeedProduct": "Bu alertni yaratish uchun mahsulot yoki do‘kon linki kerak.",
+  "aiAgentAlertCreatedMessage": "Narx kuzatuvi yoqildi. Maqsad narxga yetganda sizga xabar beraman.",
+  "aiAgentSearchResults": "“{query}” uchun {count} ta kuchli natija topdim.",
+  "@aiAgentSearchResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiAgentSearchNoResults": "“{query}” uchun hali kuchli mahsulot mosliklarini topa olmadim. Budjet, davlat yoki do‘kon talabini qo‘shib yozing.",
+  "@aiAgentSearchNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "aiAgentSearchFailed": "Agent qidiruvi vaqtincha ishlamayapti. So‘rovni aniqlashtirishda baribir yordam bera olaman.",
+  "aiStructuredMatchScore": "{score}% mos",
+  "@aiStructuredMatchScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "aiChatUserLabel": "Siz",
+  "aiChatAssistantLabel": "Dealio AI",
+  "searchHistoryEmpty": "Oxirgi qidiruvlar shu yerda chiqadi",
+  "searchHeaderTitle": "Dealio Search",
+  "searchQuotaCompact": "{plan} • {remaining} qoldi",
+  "@searchQuotaCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "int"
+      }
+    }
+  },
+  "searchQuotaUnlimitedCompact": "{plan} • cheksiz",
+  "@searchQuotaUnlimitedCompact": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "searchInputLabel": "Qidiruv",
+  "searchButtonLabel": "Qidirish",
+  "searchAiNeedsTitle": "Dealio AI",
+  "searchAiNeedsSubtitle": "Dealio'ga ehtiyojlaringizni yozing.",
+  "searchAiNeedsHint": "Masalan: kuchli batareya, yaxshi kamera, yengil, $900 gacha...",
+  "searchNeedChipCamera": "kamera",
+  "searchNeedChipBattery": "batareya",
+  "searchNeedChipBudget": "$900 gacha",
+  "searchNeedChipDurable": "chidamli",
+  "searchRecentTitle": "Oxirgi qidiruvlar",
+  "searchFiltersTitle": "Filterlar",
+  "searchFiltersSubtitle": "Davlat, do'konlar va budjet",
+  "searchFiltersButton": "Filterlar",
+  "searchFiltersApply": "Filterlarni qo'llash",
+  "searchFiltersClearStores": "Do'konlarni tozalash",
+  "searchBudgetLabel": "Budjet",
+  "searchBudgetActive": "Budjet bor",
+  "searchBudgetHint": "Ixtiyoriy maksimal narx",
+  "searchBudgetInvalid": "To'g'ri budjet kiriting",
+  "searchCountryLabel": "Davlat",
+  "searchStoresLabel": "Faqat kerak bo'lsa do'kon tanlang.",
+  "searchAdvancedTitle": "Qo'shimcha",
+  "searchGlobalScope": "Global do'konlar",
+  "searchSelectedScope": "{count} tanlangan do'kon",
+  "@searchSelectedScope": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryStores": "{count} do'kon",
+  "@searchHistoryStores": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchHistoryContext": "kontekst",
+  "searchCountryFallback": "Davlat"
+}
